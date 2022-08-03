@@ -1,0 +1,84 @@
+/**************tag selectors***************/
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+hr {
+  color: hsl(215, 32%, 27%);
+  width: 265px;
+  border-width: 2px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+p {
+  margin-bottom: 0;
+}
+a {
+  color: White;
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+/*************class selectors**************/
+.card {
+  width: 19rem;
+  margin-left: 35%;
+  margin-top: 1%;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.image {
+  width: 17rem;
+  margin: 15px 15px;
+  border-radius: 10px;
+}
+
+.card-title {
+  color: hsl(0, 0%, 100%);
+  margin-left: 15px;
+}
+.card-text {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+}
+.container {
+  margin-bottom: 20px;
+}
+.end {
+  color: hsl(215, 51%, 70%);
+  padding-left: 5px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.img {
+  float: left;
+  width: 30px;
+  border-color: White;
+  border-width: thick;
+  margin-right: 10px;
+}
+.attribution {
+  font-size: 10px;
+  color: hsl(215, 51%, 70%);
+}
+/************id selectors*****************/
+
+
+/*************images*********************/
+.container-fluid {
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.clock {
+  color: hsl(215, 51%, 70%);
+}
